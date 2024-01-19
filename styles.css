@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #ffffff, #e5e5e5, #cccccc, #b3b3b3, #9b9b9b);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+.nav-link {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+}
+
+.nav-link ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar img {
+    width: 350px;
+    padding: 10px;
+}
+
+.dropdown-item {
+    position: relative;
+    right: 2px;
+}
+
+.nav-link > ul > li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #892935;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-link > ul > li:hover::after {
+    width: 100%;
+}
+
+.nav-link > ul > li.dropdown::after {
+    content: none;
+}
+
+.btnCall {
+    position: relative;
+    right: 100px;
+    bottom: 5px;
+    background-color: #ca3a4d;
+    border: 2px solid #892935;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px black;
+    color: #ffffff;
+}
+
+.btnCall:hover {
+    background-color: #892935;
+    transition: 0.5s;
+    border: 2px solid #ca3a4d;
+    
+}
+
+.content-and-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 6%;
+}
+
+.content {
+    width: 70%;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.user {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.user img {
+    width: 350px;
+    border-radius: 50%;
+    box-shadow:20px 20px 30px #000;
+}
+
+.tripyng{
+    font-size: 60px;
+}
+.fristline2{
+    color: #892935;
+}
+
+.content p{
+    font-size: 35px;
+}
+.content .f{
+    color: #892935;
+}
+.btnMore{
+    padding: 5px 15px 5px 15px;
+    background-color: transparent;
+    border: 2px solid #892935;
+    font-size: 20px;
+    margin-right: 80px;
+
+    border-radius: 20px;
+}
+.btnContact{
+    padding: 5px 30px 5px 30px;
+    background-color: #ca3a4d;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #892935;
+    border-radius: 20px;
+}
+
+.btnMore:hover{
+    background-color: #ca3a4d;
+    color: #ffffff;
+    box-shadow: 5px 5px 15px black;
+}
+.btnContact:hover{
+    background-color: transparent;
+    color: black;
+    box-shadow: 5px 5px 15px black;
+}
+  
+
+
+/* Alte stiluri */
+
+.bar {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bar .fa-solid {
+    color: #892935;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+.bar .text {
+    color: #ffffff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    animation: my-animation 10s linear forwards ;
+}
+
+@keyframes my-animation {
+    0%, 10% {
+        opacity: 0;
+        transform: translateX(0%);
+    }
+
+    20%, 30% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+   
+}
+
+/*servis*/
+#servis{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #ffffff, #e5e5e5, #cccccc, #b3b3b3, #9b9b9b); 
+}
+#servis h1{
+   font-size: 50px;
+   margin-top: -10px;
+   display: inline-block;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#servis p{
+    padding-top: 0px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
