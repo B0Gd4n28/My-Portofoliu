@@ -10,6 +10,24 @@
     background-image: linear-gradient(to right bottom, #ffffff, #e5e5e5, #cccccc, #b3b3b3, #9b9b9b);
 }
 
+/*#navbare.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+    padding: 8px 6px;
+    transition: background-color 0.8s ease;
+}
+
+
+#navbare.scrolled {
+    background-color:rgba(85, 85, 85);
+    height: 80px;
+    opacity: 0S;
+    
+} */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -98,6 +116,7 @@
     top: 80px;
     left: 50px;
     cursor: pointer;
+
 }
 
 .user {
@@ -179,8 +198,8 @@
 .bar .text {
     color: #ffffff;
     display: inline-block;
-    margin: 5px;
-    font-size: 25px;
+    margin: 2px;
+    font-size: 23px;
     text-align: center;
     padding: 10px;
     animation: my-animation 10s linear forwards ;
@@ -206,7 +225,7 @@
     text-align: center;
     padding-top: 50px;
     min-height: 100vh;
-    background-image: linear-gradient(to right bottom, #ffffff, #e5e5e5, #cccccc, #b3b3b3, #9b9b9b); 
+    background-color: #ffffff;
 }
 #servis h1{
    font-size: 50px;
@@ -218,8 +237,120 @@
 #servis p{
     padding-top: 0px;
     font-size: 25px;
+    
     font-family: 'Times New Roman', Times, serif;
 }
+
+.container{
+    margin-top: 50px;
+    
+}
+
+
+.col {
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    
+    margin-right: 10px;
+}
+
+
+.btnvezi{
+    margin-top: 50px;
+    margin-bottom: 50px;   
+    background-color: #ca3a4d;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #892935;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.btnvezi:hover{
+    background-color: transparent;
+    color: black;
+    box-shadow: 5px 5px 15px black;
+ 
+}
+#portofoliu{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #ffffff, #e5e5e5, #cccccc, #b3b3b3, #9b9b9b); 
+
+}
+#portofoliu .col i{
+    font-size: 30px;
+    margin-bottom:  30px;
+    position: relative;
+    right: 100px;
+
+}
+#portofoliu .col{
+    margin: 20px;
+}
+#portofoliu .col h3{
+    font-size: 30px;
+}
+#portofoliu .col p{
+    font-size: 15px;
+}
+.container_skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container_skill .progress-container{
+    margin-bottom: 25px;
+}
+.container_skill .progress-bar h4{
+    margin: 0 0 15px 15px;
+    letter-spacing:  .5px;
+}
+
+.container_skill .progress-container .progress-bar{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px  6px 8px rgba(0,0,0,.7);
+}
+.container_skill .progress-container .progress-bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(to right,#892935 ,#ca3a4d );
+transition: width .5s linear;
+}
+
+.logo-container {
+    text-align: center;
+  }
+  .logo-container img {
+    height: 10rem;
+    pointer-events: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
 
 
 
